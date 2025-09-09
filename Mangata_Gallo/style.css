@@ -1,0 +1,79 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+  scroll-behavior: smooth;
+}
+
+    body {
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+    header {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background-color: #111;
+}
+
+ header .logo {
+  font-weight: bold;
+  margin-bottom: 1rem; 
+}
+
+nav ul{
+    display: flex;
+   justify-content: center;
+  gap: 2rem;
+    list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color:#f5b608; 
+}
+
+.hero {
+    background: url("ring11.PNG");
+      background-color: #111;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+     padding: 9rem 5rem;
+     color: #f5b608;
+     text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+button {
+  padding: 0.8rem 2rem;
+  background-color: #f5b608;
+  font-weight: bold;
+  border-radius: 10px; 
+  transition: all 0.3s ease;
+  border-color:#f5b608;
+}
+
+button:hover {
+  color: #fff;
+  transform: translateY(-3px);
+}
+
